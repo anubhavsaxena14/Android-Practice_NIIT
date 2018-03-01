@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.example.anubhav.niitdemo_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="@string/title_activity_third" />
+        <activity
+            android:name=".FourthActivity"
+            android:label="@string/title_activity_fourth" />
+        <activity
+            android:name=".FifthActivity"
+            android:label="@string/title_activity_fifth" />
+        <activity
+            android:name=".SixthDemo"
+            android:label="@string/title_activity_sixth_demo" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

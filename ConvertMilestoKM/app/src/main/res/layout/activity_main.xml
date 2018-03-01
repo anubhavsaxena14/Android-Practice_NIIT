@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ff48d2ff"
+    android:id="@+id/RelativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Convert Miles to KM"
+        android:id="@+id/textViewHeading"
+        android:background="#ff48d2ff"
+        android:autoText="false"
+        android:textColor="#ff0008ff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Miles"
+        android:id="@+id/textView"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/textViewHeading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="KM"
+        android:id="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextMile"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/editTextKM"
+        android:layout_alignStart="@+id/editTextKM" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextKM"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/buttonConvMileToKM"
+        android:layout_alignStart="@+id/buttonConvMileToKM" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert KM To Mile"
+        android:id="@+id/buttonConvKMToMile"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/buttonConvMileToKM"
+        android:layout_alignRight="@+id/buttonConvMileToKM"
+        android:layout_alignEnd="@+id/buttonConvMileToKM"
+        android:layout_alignLeft="@+id/buttonConvMileToKM"
+        android:layout_alignStart="@+id/buttonConvMileToKM" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Miles To KM"
+        android:id="@+id/buttonConvMileToKM"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

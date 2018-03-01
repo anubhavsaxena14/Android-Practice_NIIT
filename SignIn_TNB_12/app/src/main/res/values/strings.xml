@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SignIn_TNB_12</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SignInTitle">Sign In</string>
+    <string name="Password_text">Password</string>
+    <string name="LogIn_Button">Log In</string>
+    <string name="EMail_text">E-Mail</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MainList1</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_sidedemo">sidedemo</string>
+    <string name="title_activity_next_one">NextOne</string>
+</resources>

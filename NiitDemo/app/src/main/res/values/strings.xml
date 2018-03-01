@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NiitDemo</string>
+
+    <string name="hello_world">Hello world in android!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second_one">SecondOne</string>
+    <string name="myname">HARBINDER</string>
+    <string name="title_activity_third_one">ThirdOne</string>
+</resources>
